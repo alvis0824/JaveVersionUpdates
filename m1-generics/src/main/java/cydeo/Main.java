@@ -1,4 +1,4 @@
-package com.cydeo;
+package cydeo;
 
 import java.util.ArrayList;
 
@@ -13,6 +13,18 @@ public class Main {
         items.add(4);
 
         printDouble(items);
+
+        System.out.println("****************************************");
+
+        FootballPlayer joe = new FootballPlayer("joe");
+        BaseballPlayer pat = new BaseballPlayer("Pat");
+        SoccerPlayer beckham = new SoccerPlayer("Beckham");
+
+        Team<SoccerPlayer> liverpool = new Team("Liverpool");  //Team accepting any object
+       // liverpool.addPlayer(joe);
+       // liverpool.addPlayer(pat);
+        liverpool.addPlayer(beckham);
+
     }
 
     private static void printDouble(ArrayList<Integer> items) {

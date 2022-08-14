@@ -1,4 +1,4 @@
-package com.cydeo;
+package cydeo;
 
 public abstract class Player {
 

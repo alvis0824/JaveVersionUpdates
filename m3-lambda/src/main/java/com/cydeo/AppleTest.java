@@ -23,6 +23,10 @@ public class AppleTest {
         ApplePredicate weightApple = apple -> apple.getWeight()>200;
     }
 
+    //Task
+    //Convert to functional interface
+
+
     private static List<Apple> filterApples(List<Apple> inventory, ApplePredicate applePredicate){
 
         List<Apple> result = new ArrayList<>();
